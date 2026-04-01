@@ -1,0 +1,8 @@
+print("informe sua primeira nota") 
+nota1 = input()
+print("informe sua segunda nota")
+nota2 = input()
+print("informe sua terceira nota")
+nota3 = input()
+print("informe sua quarta nota")
+nota4 = input()
