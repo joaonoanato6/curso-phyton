@@ -1,0 +1,6 @@
+print("digite um primeiro numero")
+numero1 = int(input())
+print("digite um segundo numero")
+numero2 = int(input())
+print("resultado")
+print (numero1 + numero2)
