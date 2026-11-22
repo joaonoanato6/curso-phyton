@@ -30,7 +30,12 @@ CREATE TABLE funcinarios(
   data_cadastro DATE,
   cargo_funcionario VARCHAR(80)
 );
-  
+
+002,'lucas da silva ', '19', 'lucassls@gmail.com','2026-03-10', 'instrutor de salao'),
+          (003,'pedro henrique', '23', 'pedroh@gmail.com','2023-05-28', 'instrutor de salao'),
+          (004,'alice almeida', '22', 'alicai@hotmail.com','2023-02-18', 'atendente')
+
+
   SELECT * FROM funcionarios;
   
 
