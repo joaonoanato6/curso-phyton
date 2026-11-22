@@ -16,3 +16,21 @@ parte matemática
 2 soma, divisão.
 3 conversão de hora para minuto /dia.
 
+
+
+
+projeto banco de dados[´]
+CREATE TABLE funcinarios(
+  id_funcionarios INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  idade VARCHAR(80) NOT NULL,
+  email VARCHAR(150) UNIQUE,
+  cpf CHAR(11),
+  numero_contato VARCHAR(11) UNIQUE,
+  data_cadastro DATE,
+  cargo_funcionario VARCHAR(80)
+);
+  
+  SELECT * FROM funcionarios;
+  
+
